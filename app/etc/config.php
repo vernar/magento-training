@@ -232,6 +232,8 @@ return [
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
         'Temando_Shipping' => 1,
+        'Unit1_Test' => 0,
+        'Unit1_Test2' => 1,
         'Vertex_Tax' => 1
     ]
 ];
