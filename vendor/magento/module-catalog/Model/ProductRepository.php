@@ -34,7 +34,8 @@ use Magento\Framework\Exception\ValidatorException;
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @SuppressWarnings(PHPMD.TooManyFields)
  */
-class ProductRepository implements \Magento\Catalog\Api\ProductRepositoryInterface
+class ProductRepository implements \Magento\Catalog\Api\ProductRepositoryInterface,
+    \Unit1\Test\Api\ProductRepositoryInterface
 {
     /**
      * @var \Magento\Catalog\Api\ProductCustomOptionRepositoryInterface
